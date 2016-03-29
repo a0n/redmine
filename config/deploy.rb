@@ -9,7 +9,7 @@ set :db_remote_clean, true
 
 # If you want to import assets, you can change default asset dir (default = system)
 # This directory must be in your shared directory on the server
-set :assets_dir, "public/uploads"
+set :assets_dir, "files"
 # set :local_assets_dir, "public"
 
 # if you want to work on a specific local environment (default = ENV['RAILS_ENV'] || 'development')
