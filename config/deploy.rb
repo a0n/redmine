@@ -21,7 +21,7 @@ set :disallow_pushing, false
 
 
 set :application, 'redmine'
-set :repo_url, 'git@github.com:redmine/redmine.git'
+set :repo_url, 'git@github.com:a0n/redmine.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
