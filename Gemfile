@@ -92,6 +92,24 @@ else
 end
 
 group :development do
+  gem 'capistrano', '~> 3'
+  # gem 'capistrano3-delayed-job', '~> 1.0'
+  # cap tasks to manage puma application server
+  #gem 'capistrano3-puma'#, require: false
+  gem 'capistrano3-puma', github: "seuros/capistrano-puma"
+  gem 'capistrano-rails',   '~> 1.1'
+  gem 'capistrano-bundler', '~> 1.1'
+  gem 'capistrano-rvm',   '~> 0.1'
+  gem "capistrano-db-tasks"
+  gem 'capistrano-upload-config'
+
+  gem 'capistrano-faster-assets', '~> 1.0'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'meta_request'
+  gem "bullet"
+  gem "lol_dba"
+
   gem "rdoc", ">= 2.4.2"
   gem "yard"
 end
