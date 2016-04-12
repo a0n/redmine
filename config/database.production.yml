@@ -5,10 +5,13 @@
 production:
   adapter: mysql2
   database: redmine
-  host: 10.1.18.120
+  host: "10.1.18.120"
   username: redmine
   password: "C)W+8UlO/:~J"
   encoding: utf8
+  sslca: './config/keys/ca-cert.pem'
+  sslkey: '/config/keys/client-key.pem'
+  sslcert: './config/keys/client-cert.pem'
 
 development:
   adapter: mysql2
