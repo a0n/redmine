@@ -9,9 +9,9 @@ production:
   username: redmine
   password: "C)W+8UlO/:~J"
   encoding: utf8
-  sslca: <%= Rails.root.to_s + "/config/keys/ca-cert.pem" %>
-  sslkey: <%= Rails.root.to_s + "/config/keys/client-key.pem" %>
-  sslcert: <%= Rails.root.to_s + "/config/keys/client-cert.pem" %>
+  # sslca: <%= Rails.root.to_s + "/config/keys/ca-cert.pem" %>
+  # sslkey: <%= Rails.root.to_s + "/config/keys/client-key.pem" %>
+  # sslcert: <%= Rails.root.to_s + "/config/keys/client-cert.pem" %>
 
 development:
   adapter: mysql2
