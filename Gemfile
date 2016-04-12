@@ -96,6 +96,7 @@ end
 
 group :development do
   gem 'capistrano', '~> 3'
+  gem 'sshkit-sudo'
   # gem 'capistrano3-delayed-job', '~> 1.0'
   # cap tasks to manage puma application server
   #gem 'capistrano3-puma'#, require: false

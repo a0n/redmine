@@ -14,8 +14,8 @@ server '212.47.231.158', user: 'deploy', roles: %w{app db web}
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
 set :puma_env, fetch(:rack_env, fetch(:rails_env, 'production'))
-set :puma_threads, [0, 4]
-set :puma_workers, 1
+set :puma_threads, [0, 2]
+set :puma_workers, 2
 set :puma_init_active_record, true
 set :puma_preload_app, true
 

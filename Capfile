@@ -1,3 +1,4 @@
+require 'sshkit/sudo'
 # Load DSL and set up stages
 require 'capistrano/setup'
 
@@ -8,8 +9,8 @@ require 'capistrano/rvm'
 require 'capistrano/bundler'
 require 'capistrano/puma'
 require 'capistrano/puma/workers'
-#require 'capistrano/puma/jungle'
-#require 'capistrano/puma/monit'
+# require 'capistrano/puma/jungle'
+require 'capistrano/puma/monit'
 # require 'capistrano/puma/nginx'
 
 require 'capistrano/rails/assets' # for asset handling add
