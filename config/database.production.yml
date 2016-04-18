@@ -5,7 +5,7 @@
 production:
   adapter: mysql2
   database: redmine
-  host: "10.1.18.120"
+  host: "127.0.0.1"
   username: redmine
   password: "C)W+8UlO/:~J"
   encoding: utf8
