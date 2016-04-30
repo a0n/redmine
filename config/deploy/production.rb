@@ -4,7 +4,7 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-server '212.47.231.158', user: 'deploy', roles: %w{app db web}
+server '163.172.148.6', user: 'deploy', roles: %w{app db web}
 
 #server '91.250.119.157', user: 'a0n', roles: %w{app db web}
 
